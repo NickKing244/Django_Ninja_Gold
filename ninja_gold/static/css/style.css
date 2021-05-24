@@ -1,0 +1,71 @@
+* {
+    margin: 5px 20px;
+    padding: 5px;
+}
+
+body {
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    background: gray;
+    margin: auto;
+    width: 1000px;
+}
+
+#your_gold .text {
+    border: 2px solid black;
+    padding-right: 100px;
+}
+
+#middle {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#middle .locations {
+    border: 4px solid black;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#middle .locations p {
+    margin: 20px 0;
+}
+
+.locations .submit {
+    background: yellow;
+    box-shadow: 3px 3px 3px black;
+}
+
+.locations .submit:hover, #reset:hover {
+    background: green;
+    color: yellow;
+}
+
+#activities {
+    border: 2px solid black;
+}
+
+#activities .green {
+    color: green;
+}
+
+#activities .red {
+    color: red;
+}
+
+#reset {
+    text-decoration: none;
+    background: red;
+    color: yellow;
+    padding: 10px 20px;
+    display: inline-block;
+    box-shadow: 3px 3px 3px black;
+}
+
+#reset:active {
+    background: blue;
+}
